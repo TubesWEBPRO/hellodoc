@@ -12,7 +12,7 @@
 					<div class="form-group mx-sm-3 mb-2">
 					    <label for="inputPassword2" class="sr-only">Password</label>
 					    <div style="position: relative; left: 12px; top: 16px;" class="row">
-					    	<input type="text" class="form-control p-3" style="width: 525px" id="inputPassword2" placeholder="Cari di Alodokter">
+					    	<input type="text" class="form-control p-3" style="width: 525px" id="inputPassword2" placeholder="Cari di HelloDoc!">
 					    	<input type="submit" name="cari" class="btn btn-orange text-white" value="Cari" style="width: 120px; height: 58px;position: absolute;
 					    right: 0px;">
 					    </div>
@@ -159,15 +159,15 @@
         <div class="container-footer flex-center">
           <img class="imagephone" src="<?= base_url('assets/bannerr.png')?>" alt="">
           <div class="text-banner">
-              <h3>Chat lebih dari 500 dokter di Aplikasi Alodokter!</h3>
+              <h3>Chat lebih dari 500 dokter di Aplikasi HelloDoc!!</h3>
               <h4>Respons Cepat, Jawaban Akurat!</h4>
           </div>
           <div class="download-app">
-              <a class="storeimg" href="https://alodokter.onelink.me/1997390319?pid=Web-Dekstop-Pageapp&is_retargeting=true&af_dp=alodokter%3A%2F%2F&af_web_dp=https%3A%2F%2Fplay.google.com%2Fstore%2Fapps%2Fdetails%3Fid%3Dcom.alodokter.android">
+              <a class="storeimg" href="https://HelloDoc!.onelink.me/1997390319?pid=Web-Dekstop-Pageapp&is_retargeting=true&af_dp=HelloDoc!%3A%2F%2F&af_web_dp=https%3A%2F%2Fplay.google.com%2Fstore%2Fapps%2Fdetails%3Fid%3Dcom.HelloDoc!.android">
                 <img src="<?= base_url('assets/googleplay.png')?>" alt="Google Play">
               </a>
               <br>
-              <a class="appstore" href="https://alodokter.onelink.me/1997390319?pid=Web-Dekstop-IOS-Pageapp&is_retargeting=true&af_dp=alodokter%3A%2F%2F&af_web_dp=https%3A%2F%2Fitunes.apple.com%2FID%2Fapp%2Fid1405482962">
+              <a class="appstore" href="https://HelloDoc!.onelink.me/1997390319?pid=Web-Dekstop-IOS-Pageapp&is_retargeting=true&af_dp=HelloDoc!%3A%2F%2F&af_web_dp=https%3A%2F%2Fitunes.apple.com%2FID%2Fapp%2Fid1405482962">
                 <img src="<?= base_url('assets/appstore.png')?>" alt="App Store">  
               </a>
 
@@ -179,13 +179,13 @@
     <div class="footer-top">
       <div class="footer-data-item aboutus">
           <ul>
-              <li><a href="#!"><b>Alodokter</b></a></li>
+              <li><a href="#!"><b>HelloDoc!</b></a></li>
               <br>
               <li><a href="#!" class="footerdesc" >Tentang Kami</a></li>
               <li><a href="#!" class="footerdesc">Karier</a></li>
               <li><a href="#!" class="footerdesc">Kontak Kami</a></li>
               <li><a href="#!" class="footerdesc">Tim Editorial</a></li>
-              <li><a href="#!" class="footerdesc">Proteksi Alodokter</a></li>
+              <li><a href="#!" class="footerdesc">Proteksi HelloDoc!</a></li>
           </ul>
       </div>
       <!--end of about us-->
@@ -226,7 +226,7 @@
                 </li>   
             </ul>
         </div>   
-        <p class="footer-data-tittle"><b style="color:white;">Bagian Dari Alodokter</b></p>   
+        <p class="footer-data-tittle"><b style="color:white;">Bagian Dari HelloDoc!</b></p>   
         <span>
           <a href="https://www.alomedika.com" target="_blank" class="footer-data-link">alomedika.com</a>  
         </span>
@@ -241,7 +241,7 @@
     <hr>
     <!--footer bottom-->
     <div class="footer-copyright">
-        <p>Hak Cipta © 2018 Alodokter</p>
+        <p>Hak Cipta © 2018 HelloDoc!</p>
     </div>
 
   </div> 

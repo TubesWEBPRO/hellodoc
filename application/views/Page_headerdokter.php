@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>Alodokter</title>
+	<title>HelloDoc!</title>
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
   <link rel="stylesheet" href="https://d1azc1qln24ryf.cloudfront.net/114779/Socicon/style-cf.css?rd5re8">
   <link rel="stylesheet" href="<?= base_url('assets/caridokter.css')?>">
@@ -30,7 +30,7 @@
       <li class="nav-item">
          <form class="form-inline my-2 my-lg-0">
             <i><img src="<?= base_url('assets/search2.png')?>" width="15px;" style="position:absolute; left: 170px; margin-top:-7px;"></i>
-            <input class="form-control searchInput" type="search" placeholder="Cari di Alodokter" aria-label="Search">
+            <input class="form-control searchInput" type="search" placeholder="Cari di HelloDoc!" aria-label="Search">
           </form>
       </li>
     </ul>
