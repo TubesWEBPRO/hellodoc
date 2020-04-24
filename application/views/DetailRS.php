@@ -136,7 +136,7 @@
 
 </a>
 
-<a href="<?= base_url('index.php/RSinfo_controller')?>" style="text-decoration: none;color:black;">
+<a href="<?= base_url('index.php/RSinfo_controller1')?>" style="text-decoration: none;color:black;">
   <div class="card mt-3">
   <div class="row ">
     <div class="col-md-4">
@@ -161,7 +161,7 @@
 
 </a>
 
-<a href="<?= base_url('index.php/RSinfo_controller')?>" style="text-decoration: none;color:black;">
+<a href="<?= base_url('index.php/RSinfo_controller2')?>" style="text-decoration: none;color:black;">
   <div class="card mt-3">
   <div class="row ">
     <div class="col-md-4">
@@ -186,7 +186,7 @@
 
 </a>
 
-<a href="<?= base_url('index.php/RSinfo_controller')?>" style="text-decoration: none;color:black;">
+<a href="<?= base_url('index.php/RSinfo_controller3')?>" style="text-decoration: none;color:black;">
   <div class="card mt-3">
   <div class="row ">
     <div class="col-md-4">
