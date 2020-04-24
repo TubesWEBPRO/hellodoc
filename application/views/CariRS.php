@@ -16,16 +16,9 @@
             <table>
                 <tr>
                 <td>
-                    
-                    <div class="seacrhIcon">
-                        
-                    </div>
                 </td>
                 <td>
                     
-                    <div class="searchIcon">
-                        
-                    </div>
                     
                 </td>
 
