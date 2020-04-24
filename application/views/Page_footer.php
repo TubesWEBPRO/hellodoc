@@ -24,11 +24,9 @@
     </div>
     <!--end of footer top-->
     <br>
-    <hr>
+    
     <!--footer bottom-->
-    <div class="footer-copyright" style="text-align: center;">
-        <p>2020 HelloDoc!</p>
-    </div>
+    
 
   </div> 
   <!--end of footer inner-->

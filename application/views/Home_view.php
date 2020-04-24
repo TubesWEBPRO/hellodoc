@@ -34,7 +34,7 @@
 <div class="konten d-flex flex-row col-12" style="padding: 0px 0px 0px 0px;">
 	<div class="kesehatan">
 		<div class="highlight p-2">
-			<img src="<?= base_url('assets/bumil.jpg')?>" class="img-fluid" alt="Responsive image" style="padding-left: 93px;">
+			<img src="<?= base_url('assets/bumil.jpg')?>" class="img-fluid" alt="Responsive image" style="padding-left: 93px; margin-top: 9px;">
 			<h3 style="padding-left: 93px; margin-top: 22px; margin-bottom: 22px;">Makanan yang harus Dihindari Ibu Hamil</h3>
 			<p class="w-50" style="padding-left: 93px; margin-top: 22px; margin-bottom: 22px;">Saat hamil, banyak hal yang harus dilakukan dengan lebih berhati-hati. Salah satunya adalah makan. Pasalnya, ada beberapa makanan yang harus...</p>
 			<a href="#" class="text-primary" style="padding-left: 93px;">Baca Selengkapnya</a>	
@@ -127,5 +127,7 @@
 
 
 <?php $this->load->view('Page_footer')?>
-</body>
-</html>
+<hr>
+<div class="footer-copyright" style="text-align: center;">
+  <p>2020 HelloDoc!</p>
+</div>
