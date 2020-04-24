@@ -53,12 +53,12 @@
 		          <button type="button" class="close" data-dismiss="modal">&times;</button>
 		        </div>
 		        <div class="modal-body">
-		 			<p class="text-center">Pertanyaanmu akan dijawab dalam waktu maksimal 24 jam. Segera download aplikasi HelloDoc! untuk chat gratis bersama dokter secara personal dengan respon cepat & langsung! 
-					Lewat aplikasi HelloDoc!, pertanyaanmu bisa langsung ditujukan ke dokter pilihan sesuai kebutuhanmu. Kamu juga bisa mengatur privasi ekstra atas pertanyaanmu.</p>
+		 			<p class="text-center">Pertanyaanmu akan dijawab dalam waktu maksimal 24 jam.<!--  Segera download aplikasi HelloDoc! untuk chat gratis bersama dokter secara personal dengan respon cepat & langsung! 
+					Lewat aplikasi HelloDoc!, pertanyaanmu bisa langsung ditujukan ke dokter pilihan sesuai kebutuhanmu. Kamu juga bisa mengatur privasi ekstra atas pertanyaanmu. --></p>
 		        </div>
 		          <div class="modal-footer mx-auto">
 		            <button type="button" class="btn btn-outline-primary" id="lanjutTanya">Lanjutkan Bertanya</button>
-		            <button type="submit" class="btn btn-primary">Download Aplikasi</button>
+		            <!-- <button type="submit" class="btn btn-primary">Download Aplikasi</button> -->
 		          </div>
 		    </div>
 		  </div>
@@ -188,3 +188,4 @@
 <?php endforeach; ?>
 
 </div>
+
