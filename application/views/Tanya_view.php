@@ -1,26 +1,13 @@
 <?php $this->load->view('page_header.php')?>
-<div class="col-12 bg-blue">
-	<div class="d-flex flex-row flex-wrap text-white" style="margin-left: 8%; padding: 0px; font-size: 12px;">
-		<div class="p-2 diagnosa" >Diabetes</div>
-		<div class="p-2 diagnosa">Jantung</div>
-		<div class="p-2 diagnosa">Kesehatan Mulut</div>
-		<div class="p-2 diagnosa">Kolesterol Tinggi</div>
-		<div class="p-2 diagnosa">Diet</div>
-		<div class="p-2 diagnosa">Kecantikan</div>
-		<div class="p-2 diagnosa">Kulit</div>
-		<div class="p-2 diagnosa">Kehamilan</div>
-		<div class="p-2 diagnosa">Bayi</div>
-		<div class="p-2 diagnosa">Mata</div>
-	</div>
-</div>
-<div class="container col-12">
+
+<div class="container col-12" style="margin-top: 90px;">
 	<div class="col-8 tanya">
-		<h3 class="txt-tanya">Tanya Dokter</h3>
+		<h3 class="txt-tanya" style="margin-bottom: 29px;">Tanya Dokter</h3>
 		<!-- <button class="btn btn-primary btn-lg btn-block btn-tanya">Buat Pertanyaan</button>
 		<button class="btn bg-darkblue text-white btn-lg btn-block btn-tanya">Cari Pertanyaan Berdasarkan Topik</button> -->
 		<a href="" class="btn btn-outline-info btn-lg col-5 btn-tanya" id="buatTanya" data-toggle="modal" data-target="#modal-confirm">Buat Pertanyaan</a>
-		<a href="" class="btn btn-primary btn-lg col-6 btn-tanya">Cari Pertanyaan Berdasarkan Topik</a>
-		<h3 class="txt-tanya">Diskusi Kesehatan Terbaru</h3>
+		<!-- <a href="" class="btn btn-primary btn-lg col-6 btn-tanya">Cari Pertanyaan Berdasarkan Topik</a> -->
+		<h3 class="txt-tanya" style="margin-top: 22px; margin-bottom: 22px;">Diskusi Kesehatan Terbaru</h3>
 
 		<script type="text/javascript">
 			$(document).ready(function(){
@@ -53,12 +40,12 @@
 		          <button type="button" class="close" data-dismiss="modal">&times;</button>
 		        </div>
 		        <div class="modal-body">
-		 			<p class="text-center">Pertanyaanmu akan dijawab dalam waktu maksimal 24 jam. Segera download aplikasi HelloDoc! untuk chat gratis bersama dokter secara personal dengan respon cepat & langsung! 
-					Lewat aplikasi HelloDoc!, pertanyaanmu bisa langsung ditujukan ke dokter pilihan sesuai kebutuhanmu. Kamu juga bisa mengatur privasi ekstra atas pertanyaanmu.</p>
+		 			<p class="text-center">Pertanyaanmu akan dijawab dalam waktu maksimal 24 jam.<!--  Segera download aplikasi HelloDoc! untuk chat gratis bersama dokter secara personal dengan respon cepat & langsung! 
+					Lewat aplikasi HelloDoc!, pertanyaanmu bisa langsung ditujukan ke dokter pilihan sesuai kebutuhanmu. Kamu juga bisa mengatur privasi ekstra atas pertanyaanmu. --></p>
 		        </div>
 		          <div class="modal-footer mx-auto">
 		            <button type="button" class="btn btn-outline-primary" id="lanjutTanya">Lanjutkan Bertanya</button>
-		            <button type="submit" class="btn btn-primary">Download Aplikasi</button>
+		            <!-- <button type="submit" class="btn btn-primary">Download Aplikasi</button> -->
 		          </div>
 		    </div>
 		  </div>
@@ -66,8 +53,7 @@
 
 		<div class="form-tanya">
 			
-           <h6>Judul Topik</h6>
-			<form class="form-group frmTanya" action="<?= base_url('index.php/Tanya_controller/tanya')?>" method="post">
+           <form class="form-group frmTanya" action="<?= base_url('index.php/Tanya_controller/tanya')?>" method="post">
 				<input type="text" class="form-control" style="margin-bottom: 12px;" name="topik" placeholder="Contoh: Dari umur berapa bayi boleh diberi makan pada ?">
 				<textarea name="textTanya"></textarea>
 				<script>
@@ -80,8 +66,8 @@
 				  </label>
 				</div>
 				<div class="text-right">
-				<button type="button" class="btn btn-outline-info btn-lg btn-tanya" id="batal">Batal</button>
-				<input type="submit" class="btn btn-primary btn-lg btn-tanya" value="Kirim" />				
+				<!-- <button type="button" class="btn btn-outline-info btn-lg btn-tanya" id="batal">Batal</button>
+				<input type="submit" class="btn btn-primary btn-lg btn-tanya" value="Kirim" /> -->				
 			</div>
 			</form>
 			
@@ -93,7 +79,7 @@
 			  foreach ($tanya as $val) {    	
 		?>
 		 <!--1-->
-                <div class="card p-2" style="width: 780px; height: 130px; margin-top: 16px; margin-left: 0px;">
+                <div class="card p-2" style="width: 780px; height: 130px; margin-top: 28px; margin-left: 0px; margin-bottom: 28px;">
                   <div class="d-flex flex-row flex-wrap"> 
                   <div class="p-1">
                       <img src="<?= base_url('assets/default_ava.png')?>" style="border-radius: 100%; margin-top: 10px; margin-left:5px;" width="80px">
@@ -140,13 +126,8 @@
 			     ?>  
 		
 	</div>
-		<div class="col-5 p-2 float-right iklan" style="position: absolute; bottom: 0px; left:70%; top: 20px; width: 120px;">
-		<img src="<?= base_url('assets/iklan.gif')?>" width="300px" style="padding-bottom: 24px">
-		<img src="<?= base_url('assets/iklan2.jpg')?>" width="300px">
-	</div>
-	<div class="col-7" style="margin-left: 104px; margin-top: 24px;">
-				<button class="btn btn-primary text-white float-right">Selanjutnya >></button>		
-	</div>
+		
+	
 
 	<!-- Modal Ubah Pertanyaan-->
 	<?php $no=0; foreach($tanya as $val): $no++; ?>
@@ -187,4 +168,12 @@
 </div>
 <?php endforeach; ?>
 
+</div>
+
+<div style="margin-left: 30px;">
+<?php $this->load->view('Page_footer')?>
+</div>
+<hr>
+<div class="footer-copyright" style="text-align: center;">
+  <p>2020 HelloDoc!</p>
 </div>

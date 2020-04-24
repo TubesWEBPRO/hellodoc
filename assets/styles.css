@@ -51,8 +51,8 @@
 	margin-bottom: 16px;
 }
 .kesehatan, .info-sehat{
-	padding-left: 80px;
-	padding-top: 24px;
+	padding-left: 0px;
+	padding-top: 0px;
 }
 .info-sehat{
 	margin-left: 24px;
@@ -61,7 +61,7 @@
 	font-size: 14px;
 }
 .kesehatan{
-	position: relative;
+	/*position: relative;*/
 }
 
 /*Tanya Dokter*/

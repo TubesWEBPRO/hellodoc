@@ -2,10 +2,10 @@
 <div class="bg-blue col-12" style="padding-top: 80px; padding-bottom: 100px;">
 	<div class="bg-white mx-auto" style="width: 35%; padding: 35px;">
 		<h3 class="text-center" style="font-size: 24px;">Masuk</h3>
-		<p class="text-center" style="font-size: 16px;">Alo! Masuk dan jelajahi informasi kesehatan terkini dan terlengkap sesuai kebutuhanmu di sini!</p>
-		<p class="text-center" style="font-size: 16px;">Masuk dengan</p>
+		<p class="text-center" style="font-size: 16px;">Hello! Masuk dan jelajahi informasi kesehatan terkini dan terlengkap sesuai kebutuhanmu di sini!</p>
+		<!-- <p class="text-center" style="font-size: 16px;">Masuk dengan</p> -->
 		<div class="text-center">
-			<a class="button-fb btn btn-primary" href="/core_users/auth/facebook">Connect with Facebook</a>
+			<!-- <a class="button-fb btn btn-primary" href="/core_users/auth/facebook">Connect with Facebook</a> -->
 			<p style="margin-top: 12px;">Atau Masuk Di Sini</p>
 			<form method="post" action="<?= base_url('index.php/login_controller/masuk')?>">
 				 <div class="form-group">

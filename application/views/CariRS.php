@@ -120,4 +120,4 @@
 
 </div>    <!-- style="background-image: linear-gradient(to left, rgba(0,255,255,0) 19%, #3670d2) -->
 
-<?php $this->load->view('Footer_RS');?>
+<?php $this->load->view('Page_footer')?>

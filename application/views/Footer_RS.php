@@ -3,12 +3,12 @@
 <div class="container">
     <div class="row" style="margin-top:250px;margin-left:100px;">
         <div class="col-sm">
-            <h6 style="color:white;">Alodokter</h6>
+            <h6 style="color:white;">HelloDoc!</h6>
             <a href="" style="color:white;">Tentang Kami</a> <br>
             <a href="" style="color:white;">Karir</a> <br>
             <a href="" style="color:white;">Kontak Kami</a> <br>
             <a href="" style="color:white;">Tim Editorial</a> <br>
-            <a href="" style="color:white;">Proteksi Alodokter</a> <br>
+            <a href="" style="color:white;">Proteksi HelloDoc!</a> <br>
         </div>
         <div class="col-sm">
             <h6 style="color:white;">Lainya</h6>
@@ -28,8 +28,8 @@
             <a href="" style="color:white;"><img src="<?= base_url('assets/footer-5.jpg')?>" alt="" style="height:30px;"></a>
             <br>
             <br>
-            <a href="" style="color:white;">Alomedika.com</a>
-            <a href="" style="color:white;">Pobpad.com</a> <br>
+            <!-- <a href="" style="color:white;">Alomedika.com</a>
+            <a href="" style="color:white;">Pobpad.com</a> <br> -->
         </div>
     </div>
 
