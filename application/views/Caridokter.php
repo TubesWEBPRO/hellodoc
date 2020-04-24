@@ -36,10 +36,24 @@
 
     <div class="container contain-cariDokter" style="margin-top: 10px; margin-left: 62px;">
         <h3 class="text-black subJudul" style="margin-left: 24px; margin-bottom: 16px; margin-top: 40px;">Pilih Spesialisasi Dokter</h3>
-        <div class="d-flex flex-row flex-wrap m-4" style="margin-bottom: 0px;"> 
-                <a href="<?= base_url('index.php/detaildokter')?>" style=" text-decoration: none;"><div class="p-0 w-30 background-top-inner" style="background: url('<?=base_url('assets/card1.jpg') ?>') top; width: 300px; height: 166px;">
-                    <span class="badge badge-primary" style="margin-left: 89px; margin-right: 89px;">Dokter Kandungan</span>
-                </div></a>
+        <div class="d-flex flex-row flex-wrap m-4" style="margin-bottom: 0px;">
+        </div>
+    </div>
+        <table align="center" border="0" style="width: 89%;">
+            <tr> 
+                <td style="padding: 10px 10px 10px 10px;"><a href="<?= base_url('index.php/detaildokter')?>"> <img class="card-img-top" src="<?= base_url('assets/CD-card_1.png')?>" alt="Card image cap" style="display:block;" width="100%" height="52%"> </a></td>
+                <td style="padding: 10px 10px 10px 10px;"><a href="<?= base_url('index.php/detaildokter')?>"> <img class="card-img-top" src="<?= base_url('assets/CD-card_2.png')?>" alt="Card image cap" style="display:block;" width="100%" height="52%"> </a></td>
+                <td style="padding: 10px 10px 10px 10px;"><a href="<?= base_url('index.php/detaildokter')?>"> <img class="card-img-top" src="<?= base_url('assets/CD-card_3.png')?>" alt="Card image cap" style="display:block;" width="100%" height="52%"> </a></td>
+                <td style="padding: 10px 10px 10px 10px;"><a href="<?= base_url('index.php/detaildokter')?>"> <img class="card-img-top" src="<?= base_url('assets/CD-card_4.png')?>" alt="Card image cap" style="display:block;" width="100%" height="50%"> </a></td>
+            </tr>
+            <tr>
+                <td style="padding: 10px 10px 10px 10px;"><a href="<?= base_url('index.php/detaildokter')?>"> <img class="card-img-top" src="<?= base_url('assets/CD-card_5.png')?>" alt="Card image cap" style="display:block;" width="100%" height="52%"> </a></td>
+                <td style="padding: 10px 10px 10px 10px;"><a href="<?= base_url('index.php/detaildokter')?>"> <img class="card-img-top" src="<?= base_url('assets/CD-card_6.png')?>" alt="Card image cap" style="display:block;" width="100%" height="52%"> </a></td>
+                <td style="padding: 10px 10px 10px 10px;"><a href="<?= base_url('index.php/detaildokter')?>"> <img class="card-img-top" src="<?= base_url('assets/CD-card_7.png')?>" alt="Card image cap" style="display:block;" width="100%" height="52%"> </a></td>
+                <td style="padding: 10px 10px 10px 10px;"><a href="<?= base_url('index.php/detaildokter')?>"> <img class="card-img-top" src="<?= base_url('assets/CD-card_8.png')?>" alt="Card image cap" style="display:block;" width="100%" height="52%"> </a></td>
+            </tr>
+        </table>
+                
                 
         </div>
         <div class="d-flex flex-row flex-wrap m-4"> 
