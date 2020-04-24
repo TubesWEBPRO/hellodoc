@@ -1,7 +1,7 @@
 <?php
 defined('BASEPATH') OR exit('No direct script access allowed');
 
-class RSinfo_controller extends CI_Controller {
+class RSinfo_controller3 extends CI_Controller {
 
 	/**
 	 * Index Page for this controller.
@@ -20,6 +20,6 @@ class RSinfo_controller extends CI_Controller {
 	 */
 	public function index()
 	{
-		$this->load->view('RSinfoHasan');
+		$this->load->view('RSinfoAdvent');
 	}
 }
