@@ -126,8 +126,6 @@
 			     ?>  
 		
 	</div>
-		
-	
 
 	<!-- Modal Ubah Pertanyaan-->
 	<?php $no=0; foreach($tanya as $val): $no++; ?>
