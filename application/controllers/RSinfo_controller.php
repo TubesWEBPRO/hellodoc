@@ -20,6 +20,6 @@ class RSinfo_controller extends CI_Controller {
 	 */
 	public function index()
 	{
-		$this->load->view('RSinfo');
+		$this->load->view('RSinfoHasan');
 	}
 }
