@@ -13,18 +13,20 @@
 <div data-spy="scroll" data-target="#list-example" data-offset="0" class="scrollspy-example">
   <h4 id="list-item-1" style="margin-top: 25px;">Profil Dokter</h4>
   <p style="margin-top: 25px; text-align: justify;
-  text-justify: inter-word;">dr. Ni Putu Titien Sri Kusumayanti merupakan seorang Dokter yang saat ini berpraktek di Rumah Sakit Al Islam Bandung. Adapun layanan yang dapat diberikan beliau diantaranya Konsultasi Kehamilan, Tes Kehamilan, Melahirkan Normal, Operasi Caesar, USG Kehamilan, dan Suntik KB.</p>
+  text-justify: inter-word;">dr. Amelia Abdullah, merupakan Dokter. Saat ini berpraktik di RS Muhammadiyah Bandung. Adapun layanan yang dapat dibantu oleh beliau diantaranya: Konsultasi kKbidanan dan Kandungan.
+
+</p>
                     <br>
-                    <p>dr. Ni Putu Titien Sri Kusumayanti telah menamatkan pendidikan Kedokteran di Universitas Gadjah Mada, Yogyakarta.</p>
+                    <p>dr. Amelia Abdullah menamatkan pendidikan Spesialis di Universitas Hasanuddin.</p>
                     <br>
                     <h6>Pendidikan</h6>
-                    <p>Universitas Gadjah Mada, Yogyakarta</p></p>
+                    <p>Universitas Hasanuddin</p></p>
   
   
   <h4 id="list-item-4" style="margin-top: 25px;">Jadwal Praktek</h4>
   <ul style="margin-bottom: 28px;">
-    <li><h6>RS Al Islam Bandung</h6></li>
-    <li><h6>Mulai dari Rp135.000</h6></li>
+    <li><h6>RS Muhammadiyah Bandung</h6></li>
+    <li><h6>Mulai dari Rp250.000</h6></li>
     
   </ul>
   
@@ -45,17 +47,18 @@
 </div>
 <div class="col-sm" style="">
 <div class="card" style="width: 18rem; margin-bottom: 38px;">
-  <a href=""> <img class="card-profil" src="<?= base_url('assets/dr.3.jpg')?>" alt="Card image cap" style="width: 100%;"> </a>
+  <a href=""> <img class="card-profil" src="<?= base_url('assets/dr.8.jpg')?>" alt="Card image cap" style="width: 100%;"> </a>
   <div class="card-doctor-detail">
                             <p style="font-weight: 500;width: 170px;margin-left:0px;  margin-top: 25px;">Tindakan Medis: </p>
                             <ul style="font-size:14px; margin-left:-20px;">
+                                <li style=" padding-bottom:5px;">Histerosalpingografi (HSG)</li>
+                                <li style=" padding-bottom:5px;">Induksi Ovulasi</li>
+                                <li style=" padding-bottom:5px;">Induksi Persalinan</li>
+                                <li style=" padding-bottom:5px;">Insisi dan Drainase Abses Kista Bartholin</li>
                                 <li style=" padding-bottom:5px;">Konsultasi Kehamilan</li>
-                                <li style=" padding-bottom:5px;">Melahirkan Normal</li>
-                                <li style=" padding-bottom:5px;">Operasi Caesar</li>
-                                <li style=" padding-bottom:5px;">Suntik KB</li>
-                                <li style=" padding-bottom:5px;">Tes Kehamilan</li>
-                                <li style=" padding-bottom:5px;">USG Kehamilan</li>
-                                <li style=" padding-bottom:5px;">Pemasangan dan Pelepasan IUD</li>
+                                <li style=" padding-bottom:5px;">Konsultasi Laktasi</li>
+                                <li style=" padding-bottom:5px;">Konsultasi Program Hamil</li>
+                                <li style=" padding-bottom:5px;">Kuret</li>
                             </ul>
                         </div>
 </div>

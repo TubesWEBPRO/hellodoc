@@ -24,32 +24,15 @@
 	</div>
 </div>
 
-
-<?php if ($this->session->flashdata('flash_success')) { ?>
-        <div class="alert alert-success alert-dismissible col-12 float-right" style="position: absolute; width: 50%; z-index: 99; margin-left: 100px;">
-	    <a href="#" class="close" data-dismiss="alert" aria-label="close">&times;</a>
-	    <?php echo $this->session->flashdata('flash_success')?>
-	  </div>
-    <?php } ?>
-<div class="konten d-flex flex-row col-12" style="padding: 0px 0px 0px 0px;">
-	<div class="kesehatan">
-		<div class="highlight p-2">
-			<img src="<?= base_url('assets/bumil.jpg')?>" class="img-fluid" alt="Responsive image" style="padding-left: 93px; margin-top: 9px;">
-			<h3 style="padding-left: 93px; margin-top: 22px; margin-bottom: 22px;">Makanan yang harus Dihindari Ibu Hamil</h3>
-			<p class="w-50" style="padding-left: 93px; margin-top: 22px; margin-bottom: 22px;">Saat hamil, banyak hal yang harus dilakukan dengan lebih berhati-hati. Salah satunya adalah makan. Pasalnya, ada beberapa makanan yang harus...</p>
-			<a href="#" class="text-primary" style="padding-left: 93px;">Baca Selengkapnya</a>	
-		</div>
-
-
 <?php error_reporting(0); foreach ($artikel as $row) {?>
-		<div class="artikel p-2">
+		<div class="artikel" style="margin-top: 33px;">
 			<div class="d-flex flex-row flex-wrap">
 				<div class="p-2">
-					<img src="<?= base_url('assets/').$row->foto_artikel?>" width="300" height="166" style="margin-left: 84px;">	
+					<img src="<?= base_url('assets/').$row->foto_artikel?>" width="300" height="166" style="margin-left: 84px; border-radius: 10px;">	
 				</div>
 				<div class="p-2">
-					<h3 style="font-size: 18px; margin-bottom: 24px; width: 350px;"><a href="<?= base_url('index.php/TambahArtikel_controller/readArtikel/').$row->id_artikel?>" class="text-dark" style="text-decoration: none; margin-bottom: 22px; margin-top: 22px;"><?= $row->judul_artikel?></a></h3>
-					<div class="w-75" style="margin-bottom: 22px; margin-top: 22px; font-size: 16px;"><?= substr($row->deskripsi, 0, 100)?>...</div>
+					<h3 style="font-size: 18px; width: 350px; margin-bottom: 28px;"><a href="<?= base_url('index.php/TambahArtikel_controller/readArtikel/').$row->id_artikel?>" class="text-dark" style="text-decoration: none;"><?= $row->judul_artikel?></a></h3>
+					<div class="w-75" style="font-size: 16px;"><?= substr($row->deskripsi, 0, 190)?>...</div><br>
 					<a href="<?= base_url('index.php/TambahArtikel_controller/readArtikel/').$row->id_artikel?>" class="text-primary">Baca Selengkapnya</a><br>
 					<?php if($this->session->userdata('status') == "admin"){?>
 					<a data-toggle="modal" data-target="#modal-edit<?=$row->id_artikel;?>" class="text-warning" data-popup="tooltip" data-placement="top" title="Edit Data" style="cursor: pointer;">Edit</a>
@@ -125,8 +108,9 @@
 	    <!-- <button class="btn btn-primary text-white p-2">Selanjutnya >></button> -->		
 	</div>
 
-
+<div style="margin-top: 33px;">
 <?php $this->load->view('Page_footer')?>
+</div>
 <hr>
 <div class="footer-copyright" style="text-align: center;">
   <p>2020 HelloDoc!</p>

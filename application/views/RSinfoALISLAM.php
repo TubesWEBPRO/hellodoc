@@ -37,38 +37,23 @@
 </div>
 <div data-spy="scroll" data-target="#list-example" data-offset="0" class="scrollspy-example">
   <h4 id="list-item-1" style="margin-top: 25px;">Profil</h4>
-  <p style="margin-top: 25px;">Pendirian RS Al Islam yang berlokasi di Jl. Soekarno-Hatta No. 644 Kota Bandung adalah buah pemikiran ibu-ibu yang tergabung dalam organisasi Badan Kerja Sama Wanita Islam (BKSWI) Jawa Barat yang anggotanya terdiri atas Ormas Kewanitaan Islam yang ada di Jawa Barat.</p>
-  <h4 id="list-item-2" style="margin-top: 25px;">Tarif Kamar</h4>
+  <p style="margin-top: 25px; text-align: justify;
+  text-justify: inter-word;">Pendirian RS Al Islam yang berlokasi di Jl. Soekarno-Hatta No. 644 Kota Bandung adalah buah pemikiran ibu-ibu yang tergabung dalam organisasi Badan Kerja Sama Wanita Islam (BKSWI) Jawa Barat yang anggotanya terdiri atas Ormas Kewanitaan Islam yang ada di Jawa Barat.</p>
+  <h4 id="list-item-2" style="margin-top: 25px;">Tarif</h4>
   <div id="acordion">
   
   <div class="card" style="margin-top: 25px;">
     <div class="card-header" id="headingOne">
       <h5 class="mb-0">
         <button class="btn btn-link" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-          SVIP 
+          Pemeriksaan Rawat Jalan
         </button>
       </h5>
     </div>
 
-    <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordion">
+    <div id="collapseOne" class="collapse hide" aria-labelledby="headingOne" data-parent="#accordion">
       <div class="card-body">
-      Kamar dengan kapasitas satu (1) pasien dengan fasilitas meliputi:
-    Electric bed
-    Dining room
-    Pantry
-    Kamar mandi dalam
-    Lemari
-    Electric kettle
-    Sofa bed
-    2 single sofa
-    Kulkas
-    2 Televisi
-    2 Telepon
-    Nakas/lemari kecil 
-    verbed table
-    Welcome drink
-    Koran setiap pagi
-    Luas Kamar: 7,42 Meter X 5,15 Meter
+      Sarana + Pelayanan = Rp15.000 + Rp20.000 = Rp30.000
       </div>
     </div>
     <br>
@@ -76,80 +61,129 @@
     <div class="card-header" id="heading2">
       <h5 class="mb-0">
         <button class="btn btn-link" data-toggle="collapse" data-target="#collapse2" aria-expanded="true" aria-controls="collapse2">
-          VIP 
+          Pemeriksaan Rawat Darurat 
         </button>
       </h5>
     </div>
 
-    <div id="collapse2" class="collapse show" aria-labelledby="heading2" data-parent="#accordion">
+    <div id="collapse2" class="collapse hide" aria-labelledby="heading2" data-parent="#accordion">
       <div class="card-body">
-      Kamar dengan kapasitas satu (1) pasien dengan fasilitas meliputi:
-    Electric bed
-    Dining room
-    Pantry
-    Kamar mandi dalam
-    Lemari
-    Electric kettle
-    Sofa bed
-    2 single sofa
-    Kulkas
-    2 Televisi
-    2 Telepon
-    Nakas/lemari kecil 
-    verbed table
-    Welcome drink
-    Koran setiap pagi
-    Luas Kamar: 7,42 Meter X 5,15 Meter
+      Pemeriksaan Dasar: Sarana + Pelayanan = Rp50.000 + Rp25.000 = Rp75.000
       </div>
     </div>
     <br>
     <div class="card-header" id="heading3">
       <h5 class="mb-0">
         <button class="btn btn-link" data-toggle="collapse" data-target="#collapse3" aria-expanded="true" aria-controls="collapseOne">
-          SVIP 
+          Pemeriksaa Poli Spesialis 
         </button>
       </h5>
     </div>
 
-    <div id="collapse3" class="collapse show" aria-labelledby="heading3" data-parent="#accordion">
+    <div id="collapse3" class="collapse hide" aria-labelledby="heading3" data-parent="#accordion">
       <div class="card-body">
-      Kamar dengan kapasitas satu (1) pasien dengan fasilitas meliputi:
-    Electric bed
-    Dining room
-    Pantry
-    Kamar mandi dalam
-    Lemari
-    Electric kettle
-    Sofa bed
-    2 single sofa
-    Kulkas
-    2 Televisi
-    2 Telepon
-    Nakas/lemari kecil 
-    verbed table
-    Welcome drink
-    Koran setiap pagi
-    Luas Kamar: 7,42 Meter X 5,15 Meter
+      Dokter Spesialis:  Sarana + Pelayanan = Rp65.000 + Rp60.000 = Rp125.000
       </div>
     </div>
   </div>
 
 
-  </div>
-  <h4 id="list-item-3" style="margin-top: 25px;">Tindakan Medis</h4>
-  <ul>
-    <li><h6>Laboratorium Klinik</h6></li>
-    <li><h6>Kedokteran Umum</h6></li>
-    <li><h6>Bedah Umum</h6></li>
-    <li><h6>Kelenjar</h6></li>
-  </ul>
-  <h4 id="list-item-4" style="margin-top: 25px;">Dokter</h4>
-  <ul style="margin-bottom: 28px;">
-    <li><h6>Dokter Kulit</h6></li>
-    <li><h6>Dokter Bedah</h6></li>
-    <li><h6>Dokter Kulit dan Kelamin</h6></li>
-  </ul>
+  <h4 id="list-item-2" style="margin-top: 25px;">Biaya Opname</h4>
+  <div id="acordion">
   
+  <div class="card" style="margin-top: 25px;">
+    <div class="card-header" id="headingOne">
+      <h5 class="mb-0">
+        <button class="btn btn-link" data-toggle="collapse" data-target="#collapse4" aria-expanded="true" aria-controls="collapseOne">
+          Kelas 1  
+        </button>
+      </h5>
+    </div>
+
+    <div id="collapse4" class="collapse hide" aria-labelledby="headingOne" data-parent="#accordion">
+      <div class="card-body">
+      Akomodasi + Visited + Full Care + Jasa Pelayanan Makanan = Rp400.000 + Rp50.000 + Rp30.000 + Rp5.000 = Rp485.000
+      </div>
+    </div>
+    <br>
+
+    <div class="card-header" id="heading2">
+      <h5 class="mb-0">
+        <button class="btn btn-link" data-toggle="collapse" data-target="#collapse5" aria-expanded="true" aria-controls="collapse2">
+          Kelas 2
+        </button>
+      </h5>
+    </div>
+
+    <div id="collapse5" class="collapse hide" aria-labelledby="heading2" data-parent="#accordion">
+      <div class="card-body">
+      Akomodasi + Visited + Full care + Jasa Pelayanan Makanan = Rp300.000 + Rp50.000 + Rp15.000 + Rp5.000 = Rp370.000
+      </div>
+    </div>
+    <br>
+    <div class="card-header" id="heading3">
+      <h5 class="mb-0">
+        <button class="btn btn-link" data-toggle="collapse" data-target="#collapse6" aria-expanded="true" aria-controls="collapseOne">
+          Kelas 3 
+        </button>
+      </h5>
+    </div>
+
+    <div id="collapse6" class="collapse hide" aria-labelledby="heading3" data-parent="#accordion">
+      <div class="card-body">
+      Akomodasi + Visited + Full Care + Jasa Pelayanan Makanan = Rp200.000 + Rp10.000 + Rp10.000 + Rp1000 = Rp221.000
+      </div>
+    </div>
+    <br>
+
+    <div class="card-header" id="headingOne">
+      <h5 class="mb-0">
+        <button class="btn btn-link" data-toggle="collapse" data-target="#collapse7" aria-expanded="true" aria-controls="collapseOne">
+          VIP  
+        </button>
+      </h5>
+    </div>
+
+    <div id="collapse7" class="collapse hide" aria-labelledby="headingOne" data-parent="#accordion">
+      <div class="card-body">
+      Akomodasi + Visited + Full Care + Jasa Pelayanan Makanan = Rp1.000 000 + Rp200.000 + Rp50.000 + Rp15.000 = Rp1.265.000
+      </div>
+    </div>
+    <br>
+
+    <div class="card-header" id="headingOne">
+      <h5 class="mb-0">
+        <button class="btn btn-link" data-toggle="collapse" data-target="#collapse8" aria-expanded="true" aria-controls="collapseOne">
+          VVIP 
+        </button>
+      </h5>
+    </div>
+
+    <div id="collapse8" class="collapse hide" aria-labelledby="headingOne" data-parent="#accordion">
+      <div class="card-body">
+      Akomodasi + Visited + Full Care + Jasa Pelayanan Makanan = Rp2.000 000 + Rp200.000 + Rp50.000 + Rp15.000 = Rp2.265.000
+      </div>
+    </div>
+
+  </div>
+
+</div>
+
+
+  </div>
+  
+  <h4 id="list-item-4" style="margin-top: 25px;">Dokter Spesialis</h4>
+  <ul style="margin-bottom: 28px;">
+    <li><h6>Dokter Spesialis Penyakit Dalam</h6></li>
+    <li><h6>Dokter Spesialis Bedah</h6></li>
+    <li><h6>Dokter Spesialis Anak</h6></li>
+    <li><h6>Dokter Spesialis Saraf</h6></li>
+    <li><h6>Dokter Spesialis Kulit dan Alat Kelamin</h6></li>
+    <li><h6>Dokter Spesialis Kesehatan Gigi Anak</h6></li>
+    <li><h6>Dokter Spesialis Gigi</h6></li>
+    <li><h6>Dokter Spesialis Radiologi</h6></li>
+  </ul>
+
 
 </div>
 
