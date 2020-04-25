@@ -40,7 +40,7 @@
 		          <button type="button" class="close" data-dismiss="modal">&times;</button>
 		        </div>
 		        <div class="modal-body">
-		 			<p class="text-center">Pertanyaanmu akan dijawab dalam waktu maksimal 24 jam.<!--  Segera download aplikasi HelloDoc! untuk chat gratis bersama dokter secara personal dengan respon cepat & langsung! 
+		 			<p class="text-center">Pertanyaan Anda akan dijawab dalam waktu maksimal 24 jam.<!--  Segera download aplikasi HelloDoc! untuk chat gratis bersama dokter secara personal dengan respon cepat & langsung! 
 					Lewat aplikasi HelloDoc!, pertanyaanmu bisa langsung ditujukan ke dokter pilihan sesuai kebutuhanmu. Kamu juga bisa mengatur privasi ekstra atas pertanyaanmu. --></p>
 		        </div>
 		          <div class="modal-footer mx-auto">
@@ -52,22 +52,24 @@
 		</div>
 
 		<div class="form-tanya">
+
 			
            <form class="form-group frmTanya" action="<?= base_url('index.php/Tanya_controller/tanya')?>" method="post">
-				<input type="text" class="form-control" style="margin-bottom: 12px;" name="topik" placeholder="Contoh: Dari umur berapa bayi boleh diberi makan pada ?">
+           	<h6>Judul Topik</h6>
+				<input type="text" class="form-control" style="margin-bottom: 12px;" name="topik" placeholder="Contoh: Hidung tersumbat lebih dari 1 bulan">
 				<textarea name="textTanya"></textarea>
 				<script>
                         CKEDITOR.replace( 'textTanya' );
                 </script>
                 <div class="form-check" style="margin-top: 12px;">
-				  <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
+				  <!-- <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
 				  <label class="form-check-label" for="defaultCheck1">
 				    Saya bersedia menerima notifikasi untuk pertanyaan ini
-				  </label>
+				  </label> -->
 				</div>
 				<div class="text-right">
-				<!-- <button type="button" class="btn btn-outline-info btn-lg btn-tanya" id="batal">Batal</button>
-				<input type="submit" class="btn btn-primary btn-lg btn-tanya" value="Kirim" /> -->				
+				<button type="button" class="btn btn-outline-info btn-lg btn-tanya" id="batal">Batal</button>
+				<input type="submit" class="btn btn-primary btn-lg btn-tanya" value="Kirim" />				
 			</div>
 			</form>
 			
@@ -115,7 +117,7 @@
 						?>
 						<script>
 							function confirmDialog() {
-							    return confirm("Are you sure you want to delete this record?")
+							    return confirm("Apa Anda yakin akan menghapus pertanyaan?")
 							}
 						</script>
                     </div>

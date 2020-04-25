@@ -1,11 +1,11 @@
 <?php $this->load->view('Page_header')?>
-<div class="side-container" style="margin-top: 60px;">
+<div class="side-container" style="margin-top: 74px;">
             <div class="d-flex flex-row flex-wrap container ">
-                <div class="p-2 box-filter box-profile bg-white" style="height:558px;">
+                <div class="p-2 box-filter box-profile bg-white" style="height: 558px; margin-left: 470px;">
                     <div class="text-center" style="margin-top:15px;">
 
                         <div class="text-center">
-                            <img src="<?= base_url('assets/dr.3.jpg')?>" alt="" style="border-radius: 100%; margin-top: 0px; margin-bottom: :0px;" width="150px">
+                            <img src="<?= base_url('assets/default_ava.png')?>" alt="" style="border-radius: 100%; margin-top: 0px; margin-bottom: :0px;" width="150px">
                             <p class="text-center text-primary" style="margin-top: 8px; font-weight: bold;"><?= $this->session->userdata('username')?></p> 
                         </div>
                         <div class="">
@@ -28,11 +28,11 @@
        	<div class="search-tab-menu-container"> 
        		<div class="search-tab-menu"> 
        			<ul class="nav">
-				  <li class="nav-item activ" style="width: 180px; text-align: center;">
-				    <a class="nav-link active" href="<?= base_url('index.php/Profile_controller')?>">Diskusi</a>
+				  <li class="nav-item activ" style="width: 180px; text-align: center; margin-left: 50px;">
+				    <a class="btn btn-secondary" href="<?= base_url('index.php/Profile_controller')?>">Diskusi</a>
 				  </li>
-				  <li class="nav-item" style="width: 180px; text-align: center;">
-				    <a class="nav-link" href="<?= base_url('index.php/Editprofil_controller')?>">Edit Profil</a>
+				  <li class="nav-item" style="width: 180px; text-align: center; margin-left: 50px;">
+				    <a class="btn btn-secondary" href="<?= base_url('index.php/Editprofil_controller')?>">Edit Profil</a>
 				  </li>
 				</ul>
        		</div> 
@@ -44,7 +44,7 @@
 			  foreach ($tanya as $val) {    	
 		?>
 		 <!--1-->
-                <div class="card p-2" style="width: 780px; height: 130px; margin-top: 16px; margin-left: 0px;">
+                <div class="card p-2" style="width: 780px; height: 130px; margin-top: 16px; margin-left: 100px;">
                   <div class="d-flex flex-row flex-wrap"> 
                   <div class="p-1">
                       <img src="<?= base_url('assets/default_ava.png')?>" style="border-radius: 100%; margin-top: 10px; margin-left:5px;" width="80px">
@@ -124,4 +124,10 @@
 </div>
 <?php endforeach; ?>
 
+<div style="margin-top: 38px;">
 <?php $this->load->view('Page_footer')?>
+</div>
+<hr>
+<div class="footer-copyright" style="text-align: center;">
+  <p>2020 HelloDoc!</p>
+</div>

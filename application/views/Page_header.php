@@ -47,27 +47,36 @@
         <?php
           if($this->simple_login->cek_login() == true && $this->session->userdata('status') == "admin"){
            ?>
-             <li class="dropdown pull-right">
-              <a class="dropdown-toggle" data-toggle="dropdown" href="#"><span class="glyphicon glyphicon-user"></span>
-                <?= $this->session->userdata('username')?><span class="caret"></span></a>
-              <ul class="dropdown-menu">
-              <li><a href="<?= base_url('index.php/Profile_controller')?>" class="nav-link" style="text-align: left; color:#3570D2; margin-left:0px;">Profile</a></li>
-              <li><a href="<?= base_url('index.php/TambahArtikel_controller')?>" class="nav-link dropdown-item text-primary">Tambah Artikel</a></li>
-              <li><a href="<?= base_url('index.php/login_controller/logout')?>" class="nav-link dropdown-item text-primary">Keluar</a></li>
-              </ul>
+              <div class="dropdown">
+                <button class="btn btn-danger dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                <?= $this->session->userdata('username')?>
+                </button>
+              <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+              <a class="dropdown-item" href="<?= base_url('index.php/Profile_controller')?>">Profile</a>
+              <a class="dropdown-item" href="<?= base_url('index.php/TambahArtikel_controller')?>">Tambah Artikel</a>
+              <a class="dropdown-item" href="<?= base_url('index.php/login_controller/logout')?>">Keluar</a>
+              </div>
+            </div>
+
+  </div>
+</div>
               <!-- <button class="btn btn-primary btn-download">Download Aplikasi</button> -->
             </li>
         <?php 
           }else if($this->simple_login->cek_login() == true && $this->session->userdata('status') == "pasien"){
         ?>
-          <li class="dropdown pull-right">
-              <a class="dropdown-toggle" data-toggle="dropdown" href="#"><span class="glyphicon glyphicon-user"></span>
-                <?= $this->session->userdata('username')?><span class="caret"></span></a>
-              <ul class="dropdown-menu">
-              <li><a href="<?= base_url('index.php/Profile_controller')?>" class="nav-link" style="text-align: left; color:#3570D2; margin-left:0px;">Profile</a></li>
-              <li><a href="<?= base_url('index.php/login_controller/logout')?>" class="nav-link dropdown-item text-primary">Keluar</a></li>
-              </ul>
-              <!-- <button class="btn btn-primary btn-download">Download Aplikasi</button> -->
+
+        <div class="dropdown">
+          <button class="btn btn-warning dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+        <?= $this->session->userdata('username')?>
+          </button>
+          <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+          <a class="dropdown-item" href="<?= base_url('index.php/Profile_controller')?>">Profile</a>
+          <a class="dropdown-item" href="<?= base_url('index.php/login_controller/logout')?>">Keluar</a>
+          </div>
+        </div>
+
+               <!-- <button class="btn btn-primary btn-download">Download Aplikasi</button> -->
             </li>
         <?php
           }else{
